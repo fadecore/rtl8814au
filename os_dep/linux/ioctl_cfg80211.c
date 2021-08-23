@@ -489,6 +489,7 @@ u8 rtw_cfg80211_ch_switch_notify(_adapter *adapter, u8 ch, u8 bw, u8 offset,
 	cfg80211_ch_switch_notify(adapter->pnetdev, freq, ctype);
 #endif
 
+
 exit:
 	return ret;
 }
